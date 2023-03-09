@@ -9,4 +9,4 @@ I tried a multitude of machine learning models, but XGBOOST regression performed
 In order to use the XGBOOST regression model the categorical features where encoded using LabelEncoding.
 I choose LabelEncoding instead of OneHotEncoding to prevent a sparse matrix to form due to the many different categories with many different values in them.
 To achieve a better rmse score for my XGBOSST model I did hyperparameter tuning. 
-The rmse achieved is not the best and there is definitely room for improvement, either by improving the existing model or trying deep neural networks instead.
+The rmse could potentially be improved. This could maybe be achieved by improving the existing model or trying deep neural networks instead.
